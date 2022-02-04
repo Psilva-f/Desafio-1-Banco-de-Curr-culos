@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px #ffffcf;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  color: #121212;
+}
+
+header ul {
+  color: #495057;
+  list-style: none;
+  display: flex;
+}
+
+form {
+  color: #495057;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+header ul li a {
+  transition: 300ms;
+}
+
+header ul li a:hover {
+  color: #ef959d;
+}
+
+legend {
+  font-weight: 800;
+}
+fieldset {
+  margin: auto 20px;
+}
+
+.Enviar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Enviar button {
+  background: #495057;
+  color: rgb(202, 197, 197);
+  width: 200px;
+  font-size: 20px;
+  transition: 300ms;
+}
+
+.Enviar button:hover {
+  background-color: rgb(29, 28, 28);
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  color: rgb(202, 197, 197);
+  text-align: center;
+  background-color: #495057;
+}
+
+footer .linksFooter {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .linksFooter p {
+  text-align: left;
+  margin: 5px;
+  transition: 300ms;
+}
+
+footer .linksFooter p:hover {
+  color: white;
+}
+
+footer p {
+  margin: 20px;
+}

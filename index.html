@@ -1,0 +1,238 @@
+  <!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <title>JobsNET</title>
+  </head>
+  <body>
+    <header>
+        <div>
+            <h1>Banco de Talentos</h1>
+            <br>
+        </div>
+     <img class="logo" src= "./imagens/Log.png"></img>
+      <ul>
+        <li><a href="#">Jobs</a></li>
+      </ul>
+
+  </header>
+
+</header>
+
+<br>
+
+<div class="formulario">
+
+    <form action="formulario" method="POST">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table cellspacing="20">
+                <tr>
+                    <td>
+                        <label for="nome">Nome Completo</label>
+                        <br>
+                        <input type="text" name="nome" id="nomeCompleto" required>
+                    </td>
+
+                                                
+                        <td>
+                            <label for="email">E-mail</label>
+                            <br>
+                            <input type="email" name="email" id="email"required>
+                        </td>
+    
+                  
+
+                    <td>
+                        <label for="cargo">Cargo Pretendido</label>
+                        <br>
+                        <input type="text" name="cargo" id="cargoPretendido"required>
+                    </td>
+                                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rg">RG</label>
+                        <br>
+                        <input type="text" name="rg" id="rg">
+                    </td>
+
+                    <td>
+                        <label for="cpf">CPF</label>
+                        <br>
+                        <input type="text" name="cpf" id="cpf"required>
+                    </td>
+                </tr>
+                <tr>
+                    
+
+                    <td>
+                        <label for="telefoneFixo">Telefone Fixo 1</label>
+                        <br>
+                        <input type="text" name="telefoneFixo" id="telefoneFixo">
+                    </td>
+
+                    
+
+                    <td>
+                      <label for="celular">Celular</label>
+                      <br>
+                      <input type="text" name="celular" id="celular"required>
+                  </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="data">Data de Nascimento</label>
+                        <br>
+                        <input type="date" name="data" id="dataDeNascimento"required>
+                    </td>
+                   
+                    <td>
+                        <label for="estadoCivil">Estado Civil</label>
+                        <br>
+                        <select name="estadoCivil" id="estadoCivil">
+                            <option value="#"></option>
+                            <option value="solteiro">Solteiro(a)</option>
+                            <option value="casado">Casado(a)</option>
+                            <option value="viuvo">Viúvo(a)</option>
+                            <option value="outro">Outro(a)</option>
+                        </select> 
+                    </td>   
+                    <td>
+                        <label for="sexo">Sexo</label>
+                        <br>
+                        <select name="sexo" id="sexo">
+                            <option value="#"></option>
+                            <option value="f">Feminino</option>
+                            <option value="m">Masculino</option>
+                            <option value="p">Prefiro não informar</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+
+                  <td>
+                    <label for="cep">CEP</label>
+                    <br>
+                    <input type="text" name ="cep" id="cep"required>
+                </td>
+              </tr>
+                    <td>
+                        <label for="logradouro">Logradouro</label>
+                        <br>
+                        <input type="text" name="logradouro" id="logradouro"required>
+                    </td>
+               
+                    <td>
+                        <label for="numero">Numero</label>
+                        <br>
+                        <input type="text" name="complemento" id="numero"required>
+                    </td>
+                    
+                    
+                <td>
+                  <label for="complemento">Complemento</label>
+                  <br>
+                  <input type="text" name="complemento" id="complemento">
+              </td>
+
+                <tr>
+                    <td>
+                        <label for="bairro">Bairro</label>
+                        <br>
+                        <input type="text" name="bairro" id="bairro"required>
+                    </td>
+
+                    <td>
+                        <label for="cidade">Cidade</label>
+                        <br>
+                        <input type="text" name="cidade" id="cidade"required>
+                    </td>
+
+                    <td>
+                      <label for="estado">Estado</label>
+                      <br>
+                      <input type="text" name="estado" id="estado"required>
+                  </td>
+
+                </tr>
+          
+            </table>
+        </fieldset>
+    <br>
+    <br>
+        <fieldset>
+            <legend>Documentos</legend>
+            <table cellspacing = "20">
+
+                <tr>
+                   
+
+                    <td>
+                      <label for="habilitacao">Habilitação</label>
+                      <br>
+                      <select name="habilitacao" id="habilitacao">
+                          <option value="#"></option>
+                          <option value="sim">Sim</option>
+                          <option value="nao">Não</option>
+                      </select>
+                  </td>
+                  
+                    <td>
+                        <label for="possuiVeiculo">Possui Veículo</label>
+                        <br>
+                        <select name="possuiVeiculo" id="possuiVeiculo">
+                            <option value="#"></option>
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                        
+                    </td>
+                  
+                </tr>
+
+            </table>
+        </fieldset>
+        <br>
+    </form>
+
+    <div class="botao submit">
+        <button>Enviar</button>
+    </div>
+
+</div>
+
+<footer>
+    <hr>
+    <div class="linksFooter">
+        <div class="linksDoFooter1">
+            <p>Lorem, ipsum.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem.</p>
+            <p>Lorem ipsum dolor sit.</p>
+                </div>
+        
+                <div class="linksDoFooter2">
+            <p>Lorem .</p>
+            <p>Jobs</p>
+          </div>
+    </div>
+    
+
+    <p>Todos os direitos reservados</p>
+</footer>
+
+</body>
+<script src= "./main.js"></script>
+</html>
